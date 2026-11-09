@@ -2,7 +2,7 @@
 
 A temporally validated SEER analysis of survival and 12-month mortality prediction in adolescent and young adult (AYA) patients with malignant pancreatic primaries, diagnosed 2004–2022.
 
-**Author:** Ramsha Zuberi (ORCID [0009-0004-9272-0343](https://orcid.org/0009-0004-9272-0343))
+**Author:** Dr.Ramsha Zuberi 
 **Status:** Manuscript in preparation
 
 ## Summary
@@ -73,13 +73,5 @@ SEER has no symptoms, laboratory values, imaging, family history or BMI. The stu
 ```
 Zuberi R. Stage dominates prognosis and limits machine-learning gains in adolescent
 and young adult pancreatic neoplasms: a temporally validated SEER analysis.
-[Journal / preprint server, year; DOI]
-```
 
-## License
 
-Code: `[e.g. MIT]`. Aggregate results and figures: `[e.g. CC BY 4.0]`.
-
-## Contact
-
-`[email]`
