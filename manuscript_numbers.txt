@@ -1,0 +1,17 @@
+COHORT: 266,170 records -> 1,466 patients with pancreatic cancer diagnosed 2004-2022 (first/only primary, valid survival). Median age 27 y; 37.4% male.
+
+SURVIVAL: median OS inf months (95% CI 191.0-inf); 1-yr 82.0% (79.9%-83.9%); 2-yr 74.8% (72.5%-77.0%).
+
+  Localized: n=656, median inf mo (inf-inf), 1-yr 97.9% (96.5%-98.8%)
+
+  Regional: n=297, median inf mo (155.0-inf), 1-yr 87.7% (83.3%-91.0%)
+
+  Distant: n=445, median 15.0 mo (12.0-19.0), 1-yr 54.1% (49.3%-58.7%)
+
+COX: distant vs localized HR 13.16 (95% CI 9.17-18.88); model C-index 0.870.
+
+PREDICTION (12-mo mortality, baseline features, temporal validation train<2018/test>=2018): train n=834, test n=433; ensemble test AUROC 0.921 (95% CI 0.888-0.949), AUPRC 0.570, Brier 0.067.
+
+AT 95%-SENSITIVITY THRESHOLD (chosen on training OOF data): test sensitivity 0.917, specificity 0.748, PPV 0.312, NPV 0.986.
+
+LIMITATIONS TO STATE: SEER has no symptom, BMI, family-history or lab data; prognosis (not diagnostic triage) in patients already diagnosed; registry data, no external validation; treatment variables subject to immortal-time bias (set B exploratory); PH assumption checked via Schoenfeld test.
